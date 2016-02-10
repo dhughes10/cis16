@@ -1,0 +1,81 @@
+<!doctype html>
+
+<head>
+	<title>Dry</title>
+	<style>
+		div {
+			color: black;
+			font-family: helvetica;
+			padding: 40px;
+		} 
+
+		.first-div {
+			background-color: #707070;
+			font-size: 70px;
+		}
+
+		.first-div:hover {
+			color: white;
+		}
+
+		.first-div:active {
+			text-transform: uppercase;
+		}
+
+		.second-div {
+			background-color: #888888;
+			font-size: 40px;
+		}
+
+		.second-div:hover {
+			color: white;
+		}
+
+		.second-div:active {
+			text-transform: uppercase;
+		}
+
+		.third-div {
+			background-color: #989898;
+			font-size: 20px;
+		}
+
+		.third-div:hover {
+			color: white;
+		}
+
+		.third-div:active {
+			text-transform: uppercase;
+		}
+
+		.big{
+			margin: 20px
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="first-div"> 
+huddled up for winter
+upon a bed
+		</div>
+
+	<div class="second-div"> 
+of pain I wipe the window
+clear
+	</div>
+
+	<div class="third-div"> 
+of frost and see
+tabi, hung out for drying
+	</div>
+	
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $('.second-div').click(function () {
+      $(this).toggleClass('big');
+    });
+  </script>
+</body>

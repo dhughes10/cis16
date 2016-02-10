@@ -1,0 +1,62 @@
+body {
+	background-color: #009899;
+	font-family: Avenir;
+  	padding: 60px;
+}
+
+.page-title {
+	color: white;
+	background-color: black;
+	font-weight: 500;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	margin-right: 25%;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.homepage-text {
+	margin-right: 35%;
+	margin-bottom: 15px;
+}
+
+.page-assignments {
+	font-size: 22px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.page-link.assignments {
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+.page-week {
+	color: white;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.page-link.studio {
+	margin-bottom: 20px;
+}
+
+.page-link.home {
+	margin-top: 80px;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
